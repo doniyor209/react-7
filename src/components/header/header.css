@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #F9F9F9;
+  font-weight: 500;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 90px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  color: #FA4A0C;
+}
